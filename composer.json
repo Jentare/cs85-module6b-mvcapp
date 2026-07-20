@@ -1,0 +1,15 @@
+{
+    "name": "jentacular/drum-practice",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jeni",
+            "email": "frei_jennifer_charle@student.smc.edu"
+        }
+    ],
+    "require": {}
+}
