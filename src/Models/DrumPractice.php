@@ -93,9 +93,9 @@ class DrumPractice{
 
     // TIER LOGIC
     $tiers = [
-    15 => ['rudimentCount' => 2, 'rudimentTime' => 3.5, 'fillCount' => 0, 'fillTime' => 0, 'grooveTime' => 2.0],
-    30 => ['rudimentCount' => 4, 'rudimentTime' => 3.0, 'fillCount' => 2, 'fillTime' => 3.0, 'grooveTime' => 3.0],
-    45 => ['rudimentCount' => 4, 'rudimentTime' => 4.0, 'fillCount' => 4, 'fillTime' => 3.25, 'grooveTime' => 4.0],
+    15 => ['rudimentCount' => 2, 'rudimentTime' => 2.5, 'fillCount' => 1, 'fillTime' => 2.0, 'grooveTime' => 2.0],
+    30 => ['rudimentCount' => 2, 'rudimentTime' => 4.5, 'fillCount' => 2, 'fillTime' => 4.5, 'grooveTime' => 3.0],
+    45 => ['rudimentCount' => 3, 'rudimentTime' => 5.0, 'fillCount' => 3, 'fillTime' => 4.5, 'grooveTime' => 4.0],
     60 => ['rudimentCount' => 4, 'rudimentTime' => 5.0, 'fillCount' => 4, 'fillTime' => 5.0, 'grooveTime' => 5.0],
     ];
 

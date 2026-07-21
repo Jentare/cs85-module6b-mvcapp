@@ -34,6 +34,14 @@
         </label>
     </form>
 
+    <div class="summary-header">
+        <h2>
+            <?= $practice->totalMinutes ?>-Min Focus: 
+            <?= count($practice->grooves) ?> Grooves
+            <?php if ($practice->showRudiments): ?> &bull; <?= count($practice->rudiments) ?> Rudiments<?php endif; ?>
+            <?php if ($practice->showFills): ?> &bull; <?= count($practice->fills) ?> Fills<?php endif; ?>
+        </h2>
+    </div>
 
     <pre>
         Notation Key: C = Cymbal/Hi-Hat | S = Snare | T1 = Tom | T2 = Tom | FT = Floor Tom | K = Bass Drum
