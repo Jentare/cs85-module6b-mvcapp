@@ -20,6 +20,9 @@ class Routine{
     public $grooves = [];
     public $fills = [];
     
+    public function __construct($minutes){
+        $this->totalMinutes = $minutes;
+    }
 
     // Define Grooves
 
