@@ -45,23 +45,19 @@ class DrumPractice{
         $allRudiments = [
             [
             'name' => 'Single Stroke Roll',
-            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\n 
-            Hands | R L R L | R L R L | R L R L | R L R L \n"
+            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\nHands | R L R L | R L R L | R L R L | R L R L \n"
             ],
             [
             'name' => 'Double Stroke Roll',
-            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\n 
-            Hands | R R L L | R R L L | R R L L | R R L L \n"
+            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\nHands | R R L L | R R L L | R R L L | R R L L \n"
             ],
             [
             'name' => 'Single Paradiddle',
-            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\n 
-            Hands | R L R R | L R L L | R L R R | L R L L \n"
+            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\nHands | R L R R | L R L L | R L R R | L R L L \n"
             ],
             [
             'name' => 'Flam Accent',
-            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\n 
-            Hands | lR L R | rL R L | lR L R | rL R L \n"
+            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\nHands | lR L R | rL R L | lR L R | rL R L \n"
             ]
         ];
 
@@ -69,34 +65,29 @@ class DrumPractice{
         $allFills = [
             [
             'name' => 'Snare Fill',
-            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\n 
-             S | o o o o | o o o o | o o o o | o o o o\n
-             K | o - - - | o - - - | o - - - | o - - -"
+            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\n    S | o o o o | o o o o | o o o o | o o o o\n    K | o - - - | o - - - | o - - - | o - - -"
             ],
             [
             'name' => 'Around the kit Fill',
             'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\n 
-             S | o o o o | - - - - | - - - - | - - - -\n 
-            T1 | - - - - | o o o o | - - - - | - - - -\n 
-            T2 | - - - - | - - - - | o o o o | - - - -\n 
-            FT | - - - - | - - - - | - - - - | o o o o\n
-             K | o - - - | o - - - | o - - - | o - - -"
+    S | o o o o | - - - - | - - - - | - - - -\n 
+   T1 | - - - - | o o o o | - - - - | - - - -\n 
+   T2 | - - - - | - - - - | o o o o | - - - -\n 
+   FT | - - - - | - - - - | - - - - | o o o o\n
+    K | o - - - | o - - - | o - - - | o - - -"
             ],
             [
             'name' => '2-beat Snare to tom Fill',
-            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\n 
-             S | o o - - | o o - - | - - - - | o o o o\n 
-            T1 | - - o - | - - o - | o o o o | - - - -\n 
-             K | o - - - | o - - - | o - - - | o - - -"
+            'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\n    S | o o - - | o o - - | - - - - | o o o o\n   T1 | - - o - | - - o - | o o o o | - - - -\n    K | o - - - | o - - - | o - - - | o - - -"
             ],
             [
             'name' => '2-beat Snare Fill',
             'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\n 
-             S | - - o o | - - o o | o o - - | - - - -\n 
-            T1 | - o - - | - o - - | - - o o | - - - -\n 
-            T2 | - - - - | - - - - | - - - - | o o - -\n 
-            FT | o - - - | o - - - | - - - - | - - o o\n
-             K | o - - - | o - - - | o - - - | o - - -"
+    S | - - o o | - - o o | o o - - | - - - -\n 
+   T1 | - o - - | - o - - | - - o o | - - - -\n 
+   T2 | - - - - | - - - - | - - - - | o o - -\n 
+   FT | o - - - | o - - - | - - - - | - - o o\n
+    K | o - - - | o - - - | o - - - | o - - -"
             ]
         ];
 

@@ -7,6 +7,8 @@ use App\Controllers\PracticeController;
 // Instantiate controller
 $controller = new PracticeController();
 
+// Grab minutes; defaults to 30
+$minutes = isset($_GET['minutes']) ? (int)$_GET['minutes'] : 30;
 // Runs the session (pass 15, 30, 45, or 60 miinutes)
-$controller->index(30);
+$controller->index($minutes);
 ?>

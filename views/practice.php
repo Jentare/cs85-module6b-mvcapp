@@ -22,22 +22,33 @@
 
 <body>
     <h1><?= htmlspecialchars($practice->getSummary()); ?></h1>
-    <p>TOTAL DURACTION: <?= $practice->totalMinutes; ?> minutes</p>
+
+    <form method="GET" action="">
+        <label for="minutes">Select Drum Practice Duration: </label>
+            <select name="minutes" id="minutes" onchange="this.form.submit()">
+                <option value="15" <?= $practice->totalMinutes == 15 ? 'selected' : ''; ?>>15 Minutes</option>
+                <option value="30" <?= $practice->totalMinutes == 30 ? 'selected' : ''; ?>>30 Minutes</option>
+                <option value="45" <?= $practice->totalMinutes == 45 ? 'selected' : ''; ?>>45 Minutes</option>
+                <option value="60" <?= $practice->totalMinutes == 60 ? 'selected' : ''; ?>>60 Minutes</option>
+            </select>
+        </label>
+    </form>
+
 
     <pre>
+        Notation Key: C = Cymbal/Hi-Hat | S = Snare | T1 = Tom | T2 = Tom | FT = Floor Tom | K = Bass Drum
+       
         Count | 1 + 2 +
             C | x x x x
             S | - - o -
-            K | o - - -
-    </pre>
-
+            K | o - - -</pre>
     <hr>
 
     <!-- Grooves -->
      <section>
         <h2>--- GROOVES (<?= $practice->timePerGroove; ?> mins each) ---</h2>
         <?php foreach ($practice->grooves as $groove): ?>
-            <h3>. <?= htmlspecialchars($groove['name']); ?></h3>
+            <h3> <?= htmlspecialchars($groove['name']); ?></h3>
             <pre><?= htmlspecialchars($groove['tab']); ?></pre>
         <?php endforeach; ?>
     </section>
@@ -47,7 +58,7 @@
      <section>
         <h2>--- RUDIMENTS (<?= $practice->timePerRudiment; ?> mins each) ---</h2>
         <?php foreach ($practice->rudiments as $rudiment): ?>
-            <h3>. <?= htmlspecialchars($rudiment['name']); ?></h3>
+            <h3> <?= htmlspecialchars($rudiment['name']); ?></h3>
             <pre><?= htmlspecialchars($rudiment['tab']); ?></pre>
         <?php endforeach; ?>
     </section>
@@ -58,7 +69,7 @@
      <section>
         <h2>--- FILLS (<?= $practice->timePerFill; ?> mins each) ---</h2>
         <?php foreach ($practice->fills as $fill): ?>
-            <h3>. <?= htmlspecialchars($fill['name']); ?></h3>
+            <h3> <?= htmlspecialchars($fill['name']); ?></h3>
             <pre><?= htmlspecialchars($fill['tab']); ?></pre>
         <?php endforeach; ?>
     </section>
