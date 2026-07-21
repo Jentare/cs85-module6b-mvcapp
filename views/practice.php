@@ -1,8 +1,8 @@
 <?php
-echo " Count | 1 + 2 + 3 + 4 +\n";
-echo "   C   | x x x x x x x x\n";
-echo "   S   | - - o - - - o -\n";
-echo "   K   | o - - - o - - -\n";
+echo " Count | 1 + 2 +\n";
+echo "   C   | x x x x\n";
+echo "   S   | - - o -\n";
+echo "   K   | o - - -\n";
 
 echo "ROUTINE: " . $practice->getSummary() . "\n";
 echo "TOTAL DURATION: " . $practice->totalMinutes . " minutes\n\n";
