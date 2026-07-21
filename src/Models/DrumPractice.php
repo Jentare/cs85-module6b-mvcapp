@@ -7,7 +7,20 @@ namespace App\Models;
 // 
 class Routine{
     // Property Declarations
+    public $totalMinutes;
+    public $tiername;
+    public $showRudiments = false;
+    public $showFills = false;
+
+    public $timePerGroove = 0;
+    public $timePerRudiment = 0;
+    public $timePerFill = 0;
+
+    public $rudiments = [];
+    public $grooves = [];
+    public $fills = [];
     
+
     // Define Grooves
 
     // Define Rudiments
