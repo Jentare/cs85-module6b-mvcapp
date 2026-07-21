@@ -1,6 +1,6 @@
 <?php
 // Load Composer's PSR-4 autoloader
-require '/vendor/autoload.php';
+require 'vendor/autoload.php';
 
 use App\Controllers\PracticeController;
 
@@ -8,5 +8,5 @@ use App\Controllers\PracticeController;
 $controller = new PracticeController();
 
 // Runs the session (pass 15, 30, 45, or 60 miinutes)
-$controllers->index(30);
+$controller->index(30);
 ?>

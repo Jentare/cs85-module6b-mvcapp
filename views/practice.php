@@ -2,7 +2,7 @@
 echo " Count | 1 + 2 +\n";
 echo "   C   | x x x x\n";
 echo "   S   | - - o -\n";
-echo "   K   | o - - -\n";
+echo "   K   | o - - -\n\n";
 
 echo "ROUTINE: " . $practice->getSummary() . "\n";
 echo "TOTAL DURATION: " . $practice->totalMinutes . " minutes\n\n";
@@ -14,7 +14,7 @@ foreach ($practice->grooves as $groove){
 }
 
 if ($practice->showRudiments){
-    echo "--- RUDIMENTS (" . $practice->$timePerRudiment . " mins each) ---\n";
+    echo "--- RUDIMENTS (" . $practice->timePerRudiment . " mins each) ---\n";
     foreach ($practice->rudiments as $rudiment){
         echo ". " . $rudiment['name'] . "\n";
         echo $rudiment['tab'] . "\n\n";
