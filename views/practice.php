@@ -1,4 +1,6 @@
 <?php
+echo "DRUM PRACTICE ROUTINE: \n\n";
+echo "Notation: \n";
 echo " Count | 1 + 2 +\n";
 echo "   C   | x x x x\n";
 echo "   S   | - - o -\n";
