@@ -10,7 +10,7 @@ class PracticeController
         // Instantiate model with session duration
         $practice = new DrumPractice($minutes);
         // Loads view to display formatted routine
-        require 'views/practice.php';
+        require __DIR__ . '/../../views/practice.php';
     }
 }
 ?>

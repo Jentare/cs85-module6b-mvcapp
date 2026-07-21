@@ -1,6 +1,6 @@
 <?php
 // Load Composer's PSR-4 autoloader
-require 'vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 use App\Controllers\PracticeController;
 

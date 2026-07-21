@@ -25,19 +25,19 @@ class DrumPractice{
         //All 4 grooves are always practiced
         $this->grooves = [
             ['name' => 'Groove 1 (Kick on 1 | Snare on 2)',
-            'tab' => "Count | 1 + 2 +\n C | x x x x\n S | - - o -\n K | o - - -"
+            'tab' => "Count | 1 + 2 +\n    C | x x x x\n    S | - - o -\n    K | o - - -"
             ],
             [
             'name' => 'Groove 2 (Kick on 1 and last + | Snare on 2)',
-            'tab' => "Count | 1 + 2 +\n C | x x x x\n S | - - o -\n K | o - - o"
+            'tab' => "Count | 1 + 2 +\n    C | x x x x\n    S | - - o -\n    K | o - - o"
             ],
             [
             'name' => 'Groove 3 (Kick on first + | Snare on 2)',
-            'tab' => "Count | 1 + 2 +\n C | x x x x\n S | - - o -\n K | - o - -"
+            'tab' => "Count | 1 + 2 +\n    C | x x x x\n    S | - - o -\n    K | - o - -"
             ],
             [
             'name' => 'Groove 4 (Kick on 1 and 2 | Snare on 2)',
-            'tab' => "Count | 1 + 2 +\n C | x x x x\n S | - - o -\n K | o - o -"
+            'tab' => "Count | 1 + 2 +\n    C | x x x x\n    S | - - o -\n    K | o - o -"
             ],
         ];
 
