@@ -8,7 +8,7 @@ namespace App\Models;
 class DrumPractice{
     // Property Declarations
     public $totalMinutes;
-    public $tiername;
+    public $tierName;
     public $showRudiments = false;
     public $showFills = false;
 
@@ -60,7 +60,7 @@ class DrumPractice{
                  Hands | R L R R | L R L L | R L R R | L R L L \n"
             ],
             [
-                'name' => 'Single Stroke Roll',
+                'name' => 'Flam Accent',
                 'tab' => "Count | 1 e + a | 2 e + a | 3 e + a | 4 e + a\n 
                  Hands | lR L R | rL R L | lR L R | rL R L \n"
             ]
